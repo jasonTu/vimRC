@@ -1,3 +1,4 @@
+# add into /etc/profile.d/
 function _update_ps1() {
     export PS1="$(~/.plsh.py $? 2> /dev/null)"
 }
